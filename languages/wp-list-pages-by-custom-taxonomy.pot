@@ -1,0 +1,307 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Blank Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-10-15 15:40-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Andrea Piccart <pratello@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: pages-by-custom-tax.php:263 pages-by-custom-tax.php:282
+msgid "LIST PAGES BY CUSTOM TAXONOMY"
+msgstr ""
+
+#: pages-by-custom-tax.php:264
+msgid ""
+"Your Theme contains a customized template file ( pbytax_template.php ) which "
+"is either too old or corrupted, and should be updated!"
+msgstr ""
+
+#: pages-by-custom-tax.php:265 pages-by-custom-tax.php:285
+msgid ""
+"Please check the plugin folder and make a new custom file starting from the "
+"latest version."
+msgstr ""
+
+#: pages-by-custom-tax.php:266
+msgid ""
+"In order to dismiss this notice, your custom template file must have at "
+"least this version (or later) in the header:"
+msgstr ""
+
+#: pages-by-custom-tax.php:266
+msgid "latest version is"
+msgstr ""
+
+#: pages-by-custom-tax.php:283
+msgid ""
+"Your Theme contains a customized template file ( pbytax_template.php ) which "
+"is not the latest one!"
+msgstr ""
+
+#: pages-by-custom-tax.php:284
+msgid ""
+"The new version contains only minor changes, therefore the update is not "
+"mandatory, though it is recommended."
+msgstr ""
+
+#: pages-by-custom-tax.php:286
+msgid ""
+"You can dismiss this notice, but in order to stop it from appearing again, "
+"your custom template file must have this version in the header:"
+msgstr ""
+
+#: pages-by-custom-tax.php:333
+msgid "WP Pages by Custom Taxonomy"
+msgstr ""
+
+#: pages-by-custom-tax.php:334
+msgid ""
+"list posts of any post-type, filtering by any term of any active custom "
+"taxonomy"
+msgstr ""
+
+#: pages-by-custom-tax.php:731
+msgid "Widget Instance Number:"
+msgstr ""
+
+#: pages-by-custom-tax.php:732
+msgid "General Settings"
+msgstr ""
+
+#: pages-by-custom-tax.php:734
+msgid "Title:"
+msgstr ""
+
+#: pages-by-custom-tax.php:738
+msgid "Introduction text/html:"
+msgstr ""
+
+#: pages-by-custom-tax.php:742
+msgid "Max Entries:"
+msgstr ""
+
+#: pages-by-custom-tax.php:743
+msgid "(set 0 to list all)"
+msgstr ""
+
+#: pages-by-custom-tax.php:745
+msgid "Filters Options"
+msgstr ""
+
+#: pages-by-custom-tax.php:747
+msgid "Post Type:"
+msgstr ""
+
+#: pages-by-custom-tax.php:749 pages-by-custom-tax.php:764
+#: pages-by-custom-tax.php:778 pages-by-custom-tax.php:785
+msgid "any"
+msgstr ""
+
+#: pages-by-custom-tax.php:762
+msgid "Taxonomy:"
+msgstr ""
+
+#: pages-by-custom-tax.php:775
+msgid "Pull from this Term"
+msgstr ""
+
+#: pages-by-custom-tax.php:775
+msgid "hold CTRL + click to select multiple terms"
+msgstr ""
+
+#: pages-by-custom-tax.php:797
+msgid "Order By:"
+msgstr ""
+
+#: pages-by-custom-tax.php:799
+msgid "Date"
+msgstr ""
+
+#: pages-by-custom-tax.php:800
+msgid "Modified Date"
+msgstr ""
+
+#: pages-by-custom-tax.php:801
+msgid "Title"
+msgstr ""
+
+#: pages-by-custom-tax.php:802
+msgid "Comments"
+msgstr ""
+
+#: pages-by-custom-tax.php:803
+msgid "Random"
+msgstr ""
+
+#: pages-by-custom-tax.php:804
+msgid "Meta Field (need to set Meta Key Name)"
+msgstr ""
+
+#: pages-by-custom-tax.php:807
+msgid "Order:"
+msgstr ""
+
+#: pages-by-custom-tax.php:809
+msgid "Ascendant"
+msgstr ""
+
+#: pages-by-custom-tax.php:810
+msgid "Descendant"
+msgstr ""
+
+#: pages-by-custom-tax.php:814
+msgid "Include Children"
+msgstr ""
+
+#: pages-by-custom-tax.php:816
+msgid "Exclude Current Post"
+msgstr ""
+
+#: pages-by-custom-tax.php:819
+msgid "Exclude posts:"
+msgstr ""
+
+#: pages-by-custom-tax.php:820
+msgid "(insert ids separated by a medium dash - or a space)"
+msgstr ""
+
+#: pages-by-custom-tax.php:824
+msgid "Custom Meta Fields Options"
+msgstr ""
+
+#: pages-by-custom-tax.php:825
+msgid "Meta Field Name:"
+msgstr ""
+
+#: pages-by-custom-tax.php:833
+msgid "none"
+msgstr ""
+
+#: pages-by-custom-tax.php:845
+msgid "Meta field Value (leave blank to not filter by meta field):"
+msgstr ""
+
+#: pages-by-custom-tax.php:848
+msgid "Meta Compare:"
+msgstr ""
+
+#: pages-by-custom-tax.php:862
+msgid "Numeric Meta Field"
+msgstr ""
+
+#: pages-by-custom-tax.php:866
+msgid "Display Options"
+msgstr ""
+
+#: pages-by-custom-tax.php:868
+msgid "Display Date"
+msgstr ""
+
+#: pages-by-custom-tax.php:870
+msgid "Display Last Modified Date"
+msgstr ""
+
+#: pages-by-custom-tax.php:872
+msgid "Display Excerpt"
+msgstr ""
+
+#: pages-by-custom-tax.php:872
+msgid "Length:"
+msgstr ""
+
+#: pages-by-custom-tax.php:874
+msgid "Display Thumbnail"
+msgstr ""
+
+#: pages-by-custom-tax.php:874
+msgid "Max Width:"
+msgstr ""
+
+#: pages-by-custom-tax.php:876
+msgid "Link Thumbnail to Post"
+msgstr ""
+
+#: pages-by-custom-tax.php:878
+msgid "Thumbnail align:"
+msgstr ""
+
+#: pages-by-custom-tax.php:880 pages-by-custom-tax.php:886
+msgid "Left"
+msgstr ""
+
+#: pages-by-custom-tax.php:881 pages-by-custom-tax.php:887
+msgid "Right"
+msgstr ""
+
+#: pages-by-custom-tax.php:882
+msgid "Centered Above"
+msgstr ""
+
+#: pages-by-custom-tax.php:885
+msgid "Date Align:"
+msgstr ""
+
+#: pages-by-custom-tax.php:890
+msgid "Date Format:"
+msgstr ""
+
+#: pages-by-custom-tax.php:891
+msgid "more info"
+msgstr ""
+
+#: pages-by-custom-tax.php:896
+msgid "Display only Titles in a Dropdown Selector"
+msgstr ""
+
+#: pages-by-custom-tax.php:898
+msgid "Dropdown Text:"
+msgstr ""
+
+#: pages-by-custom-tax.php:902
+msgid "Display only Image"
+msgstr ""
+
+#: pages-by-custom-tax.php:904
+msgid "if only image, display the other details on mouse over"
+msgstr ""
+
+#: pages-by-custom-tax.php:907
+msgid "Display only Children of the current Parent"
+msgstr ""
+
+#: pages-by-custom-tax.php:908
+msgid "(works only if you have selected a hierarchical post_type)"
+msgstr ""
+
+#: pages-by-custom-tax.php:910
+msgid "display current parent as Widget Title"
+msgstr ""
+
+#: pages-by-custom-tax.php:913
+msgid "Allow Text to flow below picture"
+msgstr ""
+
+#: pages-by-custom-tax.php:915
+msgid "Hide Title words that overflow one line"
+msgstr ""
+
+#: pages-by-custom-tax.php:917
+msgid "Title Max Length:"
+msgstr ""

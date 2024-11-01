@@ -1,0 +1,124 @@
+/* FRONTEND DISPLAY STYLES */
+
+.pbytax-intro { 
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+}
+
+ul.pbytax-list {
+	list-style:none;
+	padding-left:0;
+}
+
+ul.pbytax-list li.pbytax-item {
+	clear:both;	
+	margin-bottom:10px;
+}
+
+.pbytax-post-title {
+	font-size:110%;
+	font-weight:bold;
+}
+
+.pbytax-no-wrap {
+	white-space: nowrap;
+	overflow: hidden;	
+}
+
+.pbytax-item-content {
+	position:relative;
+}
+
+li.pbytax-item .pbytax-thumb {
+	max-width:60px;
+	max-height:auto;
+}
+.pbytax-thumb img {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+	vertical-align:middle;
+}
+
+li.pbytax-item .pbytax-thumb.pbytax-thumb-left {
+	float:left;	
+	margin-right:6px;
+}
+li.pbytax-item .pbytax-thumb.pbytax-thumb-right {
+	float:right;	
+	margin-left:6px;
+}
+li.pbytax-item .pbytax-thumb.pbytax-thumb-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;	
+}
+
+/* content alignment tweak */
+/* padding and margin will be set inline in order to leave the space for the image */
+.pbytax-text-wrap.pbytax-flow-fixed {
+	width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;	
+	box-sizing: border-box;
+}
+
+.pbytax-thumb img.img-full-width {
+	width:100%;
+	max-width:100%;
+	height:auto;
+}
+
+li.pbytax-item .pbytax-excerpt {
+	line-height:1;
+}
+
+li.pbytax-item .pbytax-date {
+	font-size:0.8em;
+	padding-top:2px;
+}
+.pbytax-date..pbytax-date-left {
+	float:left;
+}
+.pbytax-date.pbytax-date-right {
+	float:right;
+}
+
+
+
+.pbytax-overlay-content{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:5%;
+	opacity:0;
+	background-color: #111;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;	
+	box-sizing: border-box;
+	transition: opacity 0.5s ease-out;
+		-webkit-transform-style: preserve-3d;
+  		-moz-transform-style: preserve-3d;
+  	transform-style: preserve-3d; /* avoid blurry pixel for vertical align */
+}
+.pbytax-overlay-content:hover {
+	opacity: 0.9;
+}
+
+.pbytax-overlay-content .pbytax-overlay-inner { /* vertical align */
+	position: relative;
+  	top: 50%;
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);		
+  	transform: translateY(-50%);
+}
+
+li.pbytax-item .pbytax-overlay-content .pbytax-date {
+	float:none;
+	padding-bottom:5px;
+}

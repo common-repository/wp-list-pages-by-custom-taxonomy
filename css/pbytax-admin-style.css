@@ -1,0 +1,15 @@
+/* ADMIN FORM STYLE TWEAKS */
+.pbytax-settings input[type="number"].small-number,
+.pbytax-settings select.small-number  {
+	width:60px;
+	padding:0 4px;
+}
+
+.pbytax-settings input[type="checkbox"].checkbox-margin {
+	margin:4px 0;
+}
+
+.pbytax-settings span.float-right-field {
+	float:right;
+	clear:right;
+}
